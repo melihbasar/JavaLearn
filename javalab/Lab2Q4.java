@@ -19,7 +19,7 @@ public class Lab2Q4 {
         double avg= (num1+num2)/2 ;
         System.out.printf("Average is : "+ avg);
         System.out.printf("\nTwo characters are: "+ ch1 + " and "+ ch2);
-        //%.2f not working again
+        //%.2f not working again found it i should use "," instead of "+" to commit the %.2f function
         sc1.close();
         sc2.close();
 
